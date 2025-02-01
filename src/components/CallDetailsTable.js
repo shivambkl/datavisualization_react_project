@@ -13,7 +13,7 @@ const CallDetailsTable = ({ callDetails }) => {
     const handlePageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
     };
-
+// shivam S
     // Calculate total pages
     const totalPages = Math.ceil(callDetails.length / rowsPerPage);
 
